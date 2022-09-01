@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:netflix_clone/main_screen.dart';
+import 'package:netflix_clone/presentation/main_screen.dart';
 
 void main() {
   runApp(const MyApp());
