@@ -19,10 +19,25 @@ class _MainScreenState extends State<MainScreen> {
               'https://image.tmdb.org/t/p/w500/nmGWzTLMXy9x7mKd8NKPLmHtWGa.jpg',
               fit: BoxFit.cover),
         ),
+        Container(
+          height: 600,
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: AlignmentDirectional.topCenter,
+              end: AlignmentDirectional.bottomCenter,
+              stops: [0.3, 1.0], //각 색깔을 얼만큼의 크기로 나타낼지를 정한다. 기본은 고르게 분포.
+              colors: [
+                Colors.transparent,
+                Colors.black,
+              ], //원하는 컬러 갯수만큼 쓸 수 있다.
+            ),
+          ),
+        ),
         const TopBar(),
         Positioned(
           bottom: 300,
           child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Column(
                 children: const [
