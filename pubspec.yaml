@@ -38,6 +38,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   freezed_annotation: ^2.1.0
   json_annotation: ^4.6.0
+  carousel_slider: ^4.1.1
+  http: ^0.13.5
 
 dev_dependencies:
   flutter_test:
@@ -60,6 +62,9 @@ dev_dependencies:
 flutter:
   assets :
     - assets/netflix.png
+    - assets/645.png
+    - assets/game.png
+    - assets/liberation.png
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
